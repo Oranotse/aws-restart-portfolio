@@ -72,9 +72,9 @@ systemctl enable httpd
 systemctl start httpd
 echo '<html><h1>Hello From Your Web Server!</h1></html>' > /var/www/html/index.html
 
+ <img width="940" height="271" alt="image" src="https://github.com/user-attachments/assets/4e3bb6a7-107f-4c38-96fe-8fa74210988f" />
+<img width="940" height="443" alt="image" src="https://github.com/user-attachments/assets/63ec87bb-98b6-4af6-9cc2-d803aebb111f" />
 
-<img width="1197" height="518" alt="image" src="https://github.com/user-attachments/assets/3b3ed72c-130a-4c18-a2a9-b72634f1daca" />
-<img width="1191" height="582" alt="image" src="https://github.com/user-attachments/assets/40ceea39-e79d-4396-96eb-ea2214402cc5" />
 
 
 ## Outcome
