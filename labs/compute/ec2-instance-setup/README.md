@@ -59,6 +59,22 @@ I kept the default storage configuration using an 8 GiB Amazon EBS root volume.
 
 <img width="940" height="310" alt="image" src="https://github.com/user-attachments/assets/4887fbb5-365a-4d94-8194-b5b9c2d72436" />
 
+### Configuring Advanced Details
+
+I expanded the **Advanced details** pane and enabled **termination protection**.  
+
+I also added a **User Data script** to the instance to automate setting up a web server. The script installed Apache, enabled it to start on boot, started the web server, and created a simple web page. The script used is shown below:
+
+```bash
+#!/bin/bash
+yum -y install httpd
+systemctl enable httpd
+systemctl start httpd
+echo '<html><h1>Hello From Your Web Server!</h1></html>' > /var/www/html/index.html
+
+
+<img width="1197" height="518" alt="image" src="https://github.com/user-attachments/assets/3b3ed72c-130a-4c18-a2a9-b72634f1daca" />
+<img width="1191" height="582" alt="image" src="https://github.com/user-attachments/assets/40ceea39-e79d-4396-96eb-ea2214402cc5" />
 
 
 ## Outcome
