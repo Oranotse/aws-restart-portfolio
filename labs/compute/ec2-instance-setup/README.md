@@ -81,6 +81,22 @@ I monitored the instance as it moved from **Pending** to **Running**, and confir
 <img width="1919" height="530" alt="image" src="https://github.com/user-attachments/assets/233ac07a-9412-44ea-ac51-ef18d1d75590" />
 <img width="1918" height="866" alt="image" src="https://github.com/user-attachments/assets/c8c9c166-3e7f-4264-bcde-0b19aa25076c" />
 
+## Task 2: Monitor Your EC2 Instance
+
+Monitoring is an important part of maintaining the reliability, availability, and performance of EC2 instances and AWS solutions.  
+
+I selected my EC2 instance and navigated to the **Status Checks** tab at the bottom of the screen. Here, I confirmed that both the **System reachability** and **Instance reachability** checks had passed, indicating that the instance was running without hardware or software issues.  
+
+Next, I went to the **Monitoring** tab, which displays Amazon CloudWatch metrics for the instance. Since the instance was recently launched, only a few metrics were available. I explored the graphs to see an expanded view of the instance's performance. By default, basic five-minute monitoring is enabled, but detailed one-minute monitoring can also be enabled for more granular insights.  
+
+I then used the **Actions > Monitor and troubleshoot > Get Instance Screenshot** option to view what the instance console would look like if a screen were attached. This allowed me to visually verify the status of the instance without needing SSH or RDP access. After reviewing the screenshot, I selected **Cancel** to close the view.  
+
+Through these steps, I explored several ways to monitor my EC2 instance, including status checks, CloudWatch metrics, and instance screenshots, ensuring I could track its performance and troubleshoot if necessary.
+
+<img width="1918" height="852" alt="image" src="https://github.com/user-attachments/assets/58f8b2b8-a34e-4c3c-b3ca-7f3d8e1c31ec" />
+<img width="1919" height="863" alt="image" src="https://github.com/user-attachments/assets/1714989d-ea9c-4480-99ed-49f5117704f1" />
+<img width="1912" height="721" alt="image" src="https://github.com/user-attachments/assets/696764f7-615e-4958-a625-02f4e32f6f3a" />
+<img width="842" height="883" alt="image" src="https://github.com/user-attachments/assets/6fea46bd-8614-438e-8943-31aa93273f34" />
 
 
 ## Outcome
