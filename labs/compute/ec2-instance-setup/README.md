@@ -101,6 +101,23 @@ Through these steps, I explored several ways to monitor my EC2 instance, includi
 
 <img width="1641" height="401" alt="image" src="https://github.com/user-attachments/assets/a8a8e60f-8f2b-4d3f-aaac-9cbcd4ec9832" />
 
+## Task 3: Update Your Security Group and Access the Web Server
+
+I updated the **Web Server security group** to allow inbound HTTP traffic.  
+
+In the **Inbound rules** tab, I added a rule with the following settings:
+
+- **Type:** HTTP  
+- **Source:** Anywhere-IPv4  
+
+I clicked **Save rules** to apply the changes.  
+
+After returning to my web browser and refreshing the page, I was able to see the message:
+
+**Hello From Your Web Server!**
+
+This confirmed that I successfully permitted HTTP traffic into my EC2 instance and accessed the web server.
+
 <img width="1390" height="171" alt="image" src="https://github.com/user-attachments/assets/119a78e7-92c8-4b22-a62f-1f4ecd11b7ae" />
 <img width="289" height="814" alt="image" src="https://github.com/user-attachments/assets/8f2ea6a5-a37e-4a79-9f22-e643129db7c3" />
 <img width="1919" height="870" alt="image" src="https://github.com/user-attachments/assets/3e6ea489-a370-459b-82e5-edf3545dbd00" />
