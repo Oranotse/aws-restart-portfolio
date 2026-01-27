@@ -70,6 +70,17 @@ I also added a **User Data script** to automate setting up a web server on the i
  <img width="940" height="271" alt="image" src="https://github.com/user-attachments/assets/4e3bb6a7-107f-4c38-96fe-8fa74210988f" />
 <img width="940" height="443" alt="image" src="https://github.com/user-attachments/assets/63ec87bb-98b6-4af6-9cc2-d803aebb111f" />
 
+### Launching the EC2 Instance
+
+After configuring all instance settings, I launched the EC2 instance.  
+
+I monitored the instance as it moved from **Pending** to **Running**, and confirmed that the **Status Checks** passed. I also reviewed the **Details**, **Security**, and **Networking** tabs to verify the instance configuration and confirm it was accessible.
+
+
+<img width="1917" height="510" alt="image" src="https://github.com/user-attachments/assets/579159db-319a-4a8a-90bc-7c3974d203f7" />
+<img width="1919" height="530" alt="image" src="https://github.com/user-attachments/assets/233ac07a-9412-44ea-ac51-ef18d1d75590" />
+<img width="1918" height="866" alt="image" src="https://github.com/user-attachments/assets/c8c9c166-3e7f-4264-bcde-0b19aa25076c" />
+
 
 
 ## Outcome
