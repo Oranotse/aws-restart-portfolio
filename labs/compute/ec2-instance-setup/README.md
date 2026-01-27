@@ -99,12 +99,15 @@ Through these steps, I explored several ways to monitor my EC2 instance, includi
 <img width="842" height="883" alt="image" src="https://github.com/user-attachments/assets/6fea46bd-8614-438e-8943-31aa93273f34" />
 
 
-<img width="1640" height="380" alt="image" src="https://github.com/user-attachments/assets/51eee6f5-ff18-49b6-90bd-60b67fb6bca8" />
+<img width="1641" height="401" alt="image" src="https://github.com/user-attachments/assets/a8a8e60f-8f2b-4d3f-aaac-9cbcd4ec9832" />
+
 <img width="1390" height="171" alt="image" src="https://github.com/user-attachments/assets/119a78e7-92c8-4b22-a62f-1f4ecd11b7ae" />
 <img width="289" height="814" alt="image" src="https://github.com/user-attachments/assets/8f2ea6a5-a37e-4a79-9f22-e643129db7c3" />
 <img width="1919" height="870" alt="image" src="https://github.com/user-attachments/assets/3e6ea489-a370-459b-82e5-edf3545dbd00" />
 <img width="1891" height="555" alt="image" src="https://github.com/user-attachments/assets/2fdfda32-343c-4a6f-8e36-28c1147a955e" />
 <img width="1614" height="450" alt="image" src="https://github.com/user-attachments/assets/efb86df6-df23-43ad-89fc-579016f5ca68" />
+<img width="1917" height="259" alt="image" src="https://github.com/user-attachments/assets/d768b1db-ac6c-4cf7-aca5-6fd2f4e1a0a5" />
+
 
 
 ## Outcome
