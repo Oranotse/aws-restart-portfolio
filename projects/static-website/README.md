@@ -1,19 +1,19 @@
 # ☕ FreshlyGround Cafe – AWS re/Start Portfolio Project
 
-This project demonstrates how a small café can begin migrating to **Amazon Web Services (AWS)** by designing a cloud architecture and hosting a **static website using Amazon S3**.
+This project demonstrates how a small cafe can begin migrating to **Amazon Web Services (AWS)** by designing a cloud architecture and hosting a **static website using Amazon S3**.
 
 This project is beginner-friendly and focuses on understanding core AWS services and how they work together.
 
 ## 📌 Project Aim
 
 The aim of this project is to:
-- Design a **high-level AWS cloud architecture** for a café that is transitioning from on-premises systems
+- Design a **high-level AWS cloud architecture** for a cafe that is transitioning from on-premises systems
 - Host a **static café website** using Amazon S3
-- Understand how AWS services support scalability, availability, and online presence
+- Understand how AWS services support scalability and availability
 
 ## 🏗️ AWS Architecture Design
 
-A high-level AWS architecture was designed to show how FreshlyGround Cafe could migrate its systems to AWS.
+An architecture diagram was designed to show how FreshlyGround Cafe could migrate its systems to AWS.
 
 The architecture includes:
 - Regional services such as **Amazon S3, AWS Lambda, and Amazon DynamoDB**
@@ -37,7 +37,7 @@ The architecture includes:
 As part of the project, a static website was created and hosted using **Amazon S3 Static Website Hosting**.
 
 The website includes:
-- Café name
+- Cafe name
 - Business description
 - Contact information
 - A menu with at least five items
