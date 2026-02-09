@@ -22,6 +22,32 @@ The architecture includes:
 
 ### Architecture Diagram
 <img width="1058" height="548" alt="image" src="https://github.com/user-attachments/assets/c54d439f-2bb6-476e-bc07-2d9d35953f58" />
-<img width="1058" height="548" alt="image" src="https://github.com/user-attachments/assets/c54d439f-2bb6-476e-bc07-2d9d35953f58" />
+
+## ☁️ AWS Services Used
+
+- **Amazon S3** – Static website hosting
+- **Amazon EC2** – Compute services
+- **AWS Lambda** – Serverless event processing
+- **Amazon RDS (Multi-AZ)** – Relational database
+- **Amazon DynamoDB** – NoSQL database
+- **Amazon EBS** – Persistent storage for EC2
+- **AWS IAM** – Access control and permissions
+- **Amazon Cognito** – User authentication
+
+As part of the project, a static website was created and hosted using **Amazon S3 Static Website Hosting**.
+
+The website includes:
+- Café name
+- Business description
+- Contact information
+- A menu with at least five items
+
+## 🛠️ Steps to Host the Website on Amazon S3
+<img width="1295" height="553" alt="image" src="https://github.com/user-attachments/assets/ab6cc80b-ea52-4931-b3b8-c5b48375f395" />
+<img width="1260" height="652" alt="image" src="https://github.com/user-attachments/assets/51f5eb0b-a36d-4fce-9b99-b663243a041c" />
+<img width="1267" height="665" alt="image" src="https://github.com/user-attachments/assets/4c666b54-073f-4507-b183-f6a9431a0038" />
+<img width="1253" height="551" alt="image" src="https://github.com/user-attachments/assets/6b6626f2-b709-4741-bcc8-62ab78fc5eeb" />
+<img width="1259" height="654" alt="image" src="https://github.com/user-attachments/assets/70054f8c-e94b-40eb-9800-4aa2c0d1c401" />
+<img width="1259" height="654" alt="image" src="https://github.com/user-attachments/assets/70054f8c-e94b-40eb-9800-4aa2c0d1c401" />
 
 
