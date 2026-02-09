@@ -47,6 +47,9 @@ The website includes:
 <img width="1260" height="652" alt="image" src="https://github.com/user-attachments/assets/51f5eb0b-a36d-4fce-9b99-b663243a041c" />
 <img width="1267" height="665" alt="image" src="https://github.com/user-attachments/assets/4c666b54-073f-4507-b183-f6a9431a0038" />
 <img width="1253" height="551" alt="image" src="https://github.com/user-attachments/assets/6b6626f2-b709-4741-bcc8-62ab78fc5eeb" />
+<img width="1261" height="589" alt="Screenshot 2026-02-09 135505" src="https://github.com/user-attachments/assets/93edc646-c954-4b1d-9cd9-fb11f2c88b9d" />
+<img width="1261" height="589" alt="Screenshot 2026-02-09 135505" src="https://github.com/user-attachments/assets/93edc646-c954-4b1d-9cd9-fb11f2c88b9d" />
+
 <img width="1259" height="654" alt="image" src="https://github.com/user-attachments/assets/70054f8c-e94b-40eb-9800-4aa2c0d1c401" />
 
 
