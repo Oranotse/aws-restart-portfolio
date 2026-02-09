@@ -48,6 +48,6 @@ The website includes:
 <img width="1267" height="665" alt="image" src="https://github.com/user-attachments/assets/4c666b54-073f-4507-b183-f6a9431a0038" />
 <img width="1253" height="551" alt="image" src="https://github.com/user-attachments/assets/6b6626f2-b709-4741-bcc8-62ab78fc5eeb" />
 <img width="1259" height="654" alt="image" src="https://github.com/user-attachments/assets/70054f8c-e94b-40eb-9800-4aa2c0d1c401" />
-<img width="1259" height="654" alt="image" src="https://github.com/user-attachments/assets/70054f8c-e94b-40eb-9800-4aa2c0d1c401" />
+
 
 
