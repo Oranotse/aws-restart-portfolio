@@ -50,5 +50,16 @@ The website includes:
 <img width="1261" height="589" alt="Screenshot 2026-02-09 135505" src="https://github.com/user-attachments/assets/93edc646-c954-4b1d-9cd9-fb11f2c88b9d" />
 <img width="1259" height="654" alt="image" src="https://github.com/user-attachments/assets/70054f8c-e94b-40eb-9800-4aa2c0d1c401" />
 
+## ✅ Successful Website Hosting
 
+The website was successfully hosted and is accessible via the Amazon S3 website endpoint.
+<img width="1259" height="610" alt="Screenshot 2026-02-09 135708" src="https://github.com/user-attachments/assets/c809dfed-1341-43ba-b42e-043ce4792023" />
 
+## 🎓 Learning Outcomes
+
+Through this project, I learned:
+- Basic AWS cloud architecture concepts
+- The difference between regional services and availability-zone-based services
+- How to host a static website using Amazon S3
+- How AWS supports scalability and availability
+- How cloud solutions can support small businesses
