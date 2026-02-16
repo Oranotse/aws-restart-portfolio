@@ -1,15 +1,15 @@
-# AWS SimuLearn: File Systems in the Cloud
+# 📂 SimuLearn: File Systems in the Cloud
 
-## Overview
+## 🧾 Overview
 In this lab, I worked with Amazon Elastic File System (EFS) to understand how shared file storage works in AWS. I configured an EFS file system, ensured the correct mount target was available in the appropriate Availability Zone, and mounted it to an EC2 instance to test file access.
 
-## What I Learned
+## 📘 What I Learned
 - How Amazon EFS provides shared, scalable file storage within a VPC
 - The importance of mount targets in specific Availability Zones
 - How Security Groups control NFS traffic (TCP port 2049)
 - How to mount EFS to an EC2 instance and verify file persistence
 
-## Lab Completion
+## ✅ Lab Completion
 AWS SimuLearn: File Systems in the Cloud  
 Status: Completed  
 
