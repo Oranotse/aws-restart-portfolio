@@ -1,8 +1,9 @@
-# 🌐 Connecting VPCs – AWS SimuLearn
+# 🌐 AWS SimuLearn: Networking Concepts
 
-## 🧾 Overview
-In this assignment, I configured VPC peering to connect three separate Virtual Private Clouds (VPCs) within AWS ☁️: a Marketing VPC, a Finance VPC, and a Developer VPC. 
+## 🧾 Overview/Solution Request
+In this assignment, the solution request was to implement VPC peering to enable communication between VPCs, allowing Marketing and Developer EC2 instances to access the Financial Services server in the Finance VPC ☁️.
 
+## ✅ DIY Goals
 The objective was to allow EC2 instances in the Marketing and Developer VPCs to securely communicate with a Finance server located in a different VPC. To achieve this, I created VPC peering connections and updated the route tables in each VPC to ensure traffic was correctly routed between their respective CIDR blocks.
 
 ## 📘 What I Learned
@@ -11,5 +12,6 @@ The objective was to allow EC2 instances in the Marketing and Developer VPCs to 
 
 📜 **Certificate**  
 <img width="1101" height="793" alt="image" src="https://github.com/user-attachments/assets/168a1af2-0c2d-483f-8d6c-bbac8a76f230" />
+
 
 
