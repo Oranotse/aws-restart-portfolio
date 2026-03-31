@@ -68,20 +68,7 @@ instance before the AMI is captured.
 
 I copied the **KEYNAME**, **AMIID**, **HTTPACCESS**, and **SUBNETID**
 values from the lab credentials panel and ran the `aws ec2 run-instances`
-command to launch a new `t3.micro` instance tagged as **WebServer**.
-```bash
-aws ec2 run-instances \
-  --key-name vockey \
-  --instance-type t3.micro \
-  --image-id ami-0534a0fd33c655746 \
-  --user-data file:///home/ec2-user/UserData.txt \
-  --security-group-ids sg-04c83b1f7a55ffedc \
-  --subnet-id subnet-08e5755f9edde973c \
-  --associate-public-ip-address \
-  --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=WebServer}]' \
-  --output text \
-  --query 'Instances[*].InstanceId'
-```
+command to launch a new `t3.micro` instance.
 
 The command returned Instance ID: `i-0585d2d22e62d748a`.
 
