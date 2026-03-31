@@ -30,6 +30,8 @@ Navigated to **EC2 > Instances** in the AWS Management Console. The
 status checks passed in the `us-west-2a` Availability Zone.
 
 <img width="1919" height="959" alt="Screenshot 2026-03-31 204254" src="https://github.com/user-attachments/assets/b2ebc221-e762-49f0-9de7-6d6611e7bc09" />
+<img width="1913" height="954" alt="Screenshot 2026-03-31 204309" src="https://github.com/user-attachments/assets/f353fffd-697d-41a5-ba06-b1a634957e6f" />
+
 
 
 Selected the **Command Host** instance and chose **Connect**. On the 
@@ -37,7 +39,7 @@ Selected the **Command Host** instance and chose **Connect**. On the
 confirmed and **Connect** was selected to open a browser-based 
 terminal session.
 
-<img width="1913" height="954" alt="Screenshot 2026-03-31 204309" src="https://github.com/user-attachments/assets/e340fa2f-e3b8-4e08-abde-ecb36ac36dd9" />
+
 
 
 
