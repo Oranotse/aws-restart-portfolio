@@ -85,11 +85,6 @@ aws ec2 run-instances \
 
 The command returned Instance ID: `i-0585d2d22e62d748a`.
 
-<img width="1919" height="198" alt="Screenshot 2026-03-31 213410" src="https://github.com/user-attachments/assets/449c4ed9-4150-4623-aa49-092c107ab73e" />
-<img width="1919" height="198" alt="Screenshot 2026-03-31 213410" src="https://github.com/user-attachments/assets/534d6ceb-eab1-4181-a27a-179f13154b55" />
-
-
-
 I then ran the `aws ec2 run-instances` command to launch a new `t3.micro` instance
 tagged as **WebServer**, which returned the Instance ID `i-0585d2d22e62d748a`.
 I then ran `aws ec2 wait instance-running` to wait until the instance was fully running.
