@@ -23,21 +23,91 @@ Demonstrate how to create a custom AMI using the AWS CLI
 
 ## Implementation Steps
 
-### Task 1.1 — Connect to the Command Host Instance
+### Task 1.1 Connect to the Command Host Instance
 
 Navigated to **EC2 > Instances** in the AWS Management Console. The 
 **Command Host** instance was already in a **Running** state with all 
 status checks passed in the `us-west-2a` Availability Zone.
+
+Selected the **Command Host** instance and chose **Connect**. On the 
+**EC2 Instance Connect** tab, the default username `ec2-user` was 
+confirmed and **Connect** was selected to open a browser-based 
+terminal session.
+
 
 <img width="1919" height="959" alt="Screenshot 2026-03-31 204254" src="https://github.com/user-attachments/assets/b2ebc221-e762-49f0-9de7-6d6611e7bc09" />
 <img width="1913" height="954" alt="Screenshot 2026-03-31 204309" src="https://github.com/user-attachments/assets/f353fffd-697d-41a5-ba06-b1a634957e6f" />
 
 
 
-Selected the **Command Host** instance and chose **Connect**. On the 
-**EC2 Instance Connect** tab, the default username `ec2-user` was 
-confirmed and **Connect** was selected to open a browser-based 
-terminal session.
+
+### Task 1.2 — Configure the AWS CLI
+
+I confirmed the instance region by running this command:
+
+"curl http://169.254.169.254/latest/dynamic/instance-identity/document | grep region"
+
+This returned **`us-west-2`**. I then ran `aws configure`, pressed Enter
+for the Access Key ID and Secret Access Key since the instance uses an
+IAM role, set the region to `us-west-2`, and the output format to `json`.
+
+I then navigated to the working directory:
+"cd /home/ec2-user/"
+<img width="1918" height="760" alt="Screenshot 2026-03-31 212750" src="https://github.com/user-attachments/assets/f6fd3fdc-4bde-4ff6-99fd-636bbf4cc62c" />
+
+### Task 1.3 — Launch a New EC2 Instance
+
+I inspected the `UserData.txt` script by running:
+more UserData.txt
+
+
+The script updates installed software and installs **Apache**, **PHP**,
+and a **stress tool** to simulate high CPU load. The final lines erase
+shell history and SSH keys to ensure no sensitive data is left on the
+instance before the AMI is captured.
+
+<img width="1919" height="765" alt="Screenshot 2026-03-31 212759" src="https://github.com/user-attachments/assets/150ad13b-ae11-4120-a355-8c296ced9f70" />
+
+I copied the **KEYNAME**, **AMIID**, **HTTPACCESS**, and **SUBNETID**
+values from the lab credentials panel and ran the `aws ec2 run-instances`
+command to launch a new `t3.micro` instance tagged as **WebServer**.
+```bash
+aws ec2 run-instances \
+  --key-name vockey \
+  --instance-type t3.micro \
+  --image-id ami-0534a0fd33c655746 \
+  --user-data file:///home/ec2-user/UserData.txt \
+  --security-group-ids sg-04c83b1f7a55ffedc \
+  --subnet-id subnet-08e5755f9edde973c \
+  --associate-public-ip-address \
+  --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=WebServer}]' \
+  --output text \
+  --query 'Instances[*].InstanceId'
+```
+
+The command returned Instance ID: `i-0585d2d22e62d748a`.
+
+<img width="1919" height="198" alt="Screenshot 2026-03-31 213410" src="https://github.com/user-attachments/assets/449c4ed9-4150-4623-aa49-092c107ab73e" />
+
+
+I waited for the instance to reach a running state, then retrieved
+its public DNS name:
+aws ec2 wait instance-running --instance-ids i-0585d2d22e62d748a
+
+aws ec2 describe-instances \
+  --instance-id i-0585d2d22e62d748a \
+  --query 'Reservations[0].Instances[0].NetworkInterfaces[0].Association.PublicDnsName'
+```
+
+Output: `ec2-44-243-239-25.us-west-2.compute.amazonaws.com`
+
+<img width="1913" height="241" alt="Screenshot 2026-03-31 220315" src="https://github.com/user-attachments/assets/62324dff-555b-4e61-88ba-e631381d78b3" />
+
+
+
+
+
+
 
 
 
