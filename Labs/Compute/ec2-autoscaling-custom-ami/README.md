@@ -1,5 +1,3 @@
-<img width="1917" height="458" alt="Screenshot 2026-03-31 220017" src="https://github.com/user-attachments/assets/d616441c-bf40-42b9-94eb-915a6fa60e88" /># EC2 Auto Scaling Lab: Creating a Custom AMI
-
 ## Overview
 
 In this lab, the AWS Command Line Interface (AWS CLI) was used from a 
