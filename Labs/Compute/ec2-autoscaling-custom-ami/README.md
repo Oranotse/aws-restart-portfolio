@@ -72,8 +72,6 @@ command to launch a new `t3.micro` instance.
 
 The command returned Instance ID: `i-0585d2d22e62d748a`.
 
-I then ran the `aws ec2 run-instances` command to launch a new `t3.micro` instance
-tagged as **WebServer**, which returned the Instance ID `i-0585d2d22e62d748a`.
 I then ran `aws ec2 wait instance-running` to wait until the instance was fully running.
 
 Once the instance was ready, I ran `aws ec2 describe-instances` to retrieve
