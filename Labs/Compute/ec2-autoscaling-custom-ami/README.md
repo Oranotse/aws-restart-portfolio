@@ -21,7 +21,7 @@ Demonstrate how to create a custom AMI using the AWS CLI
 
 ## Implementation Steps
 
-### Task 1.1 Connect to the Command Host Instance
+### Task 1.1: Connecting to the Command Host instance
 
 Navigated to **EC2 > Instances** in the AWS Management Console. The 
 **Command Host** instance was already in a **Running** state with all 
@@ -39,7 +39,9 @@ terminal session.
 
 
 
-### Task 1.2 — Configure the AWS CLI
+### Task 1.2: Configuring the AWS CLI
+
+
 
 I confirmed the instance region by running this command:
 
@@ -53,7 +55,7 @@ I then navigated to the working directory:
 "cd /home/ec2-user/"
 <img width="1918" height="760" alt="Screenshot 2026-03-31 212750" src="https://github.com/user-attachments/assets/f6fd3fdc-4bde-4ff6-99fd-636bbf4cc62c" />
 
-### Task 1.3 — Launch a New EC2 Instance
+### Task 1.3: Creating a new EC2 Instance
 
 I inspected the `UserData.txt` script by running:
 more UserData.txt
