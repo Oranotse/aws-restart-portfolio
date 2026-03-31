@@ -1,4 +1,4 @@
-# EC2 Auto Scaling Lab: Creating a Custom AMI
+<img width="1917" height="458" alt="Screenshot 2026-03-31 220017" src="https://github.com/user-attachments/assets/d616441c-bf40-42b9-94eb-915a6fa60e88" /># EC2 Auto Scaling Lab: Creating a Custom AMI
 
 ## Overview
 
@@ -80,6 +80,44 @@ Once the instance was ready, I ran `aws ec2 describe-instances` to retrieve
 its public DNS name: `ec2-44-243-239-25.us-west-2.compute.amazonaws.com`.
 
 <img width="1913" height="241" alt="Screenshot 2026-03-31 220315" src="https://github.com/user-attachments/assets/563123b9-67d3-47fb-a53e-bcde11e3ae23" />
+
+### Task 1.4 — Create a Custom AMI
+
+Lastly, I ran the `aws ec2 create-image` command to create a new AMI named
+**WebServerAMI** based on the running WebServer instance. The command
+automatically restarts the instance before capturing the image to
+ensure file system integrity.
+
+The command returned the new AMI ID: `ami-010debd3436e818bf`.
+<img width="1141" height="138" alt="Screenshot 2026-03-31 220553" src="https://github.com/user-attachments/assets/de7cc350-3b40-42d0-9aa3-00085995c1cf" />
+
+I opened a new browser tab and entered the public DNS address
+`ec2-44-243-239-25.us-west-2.compute.amazonaws.com` to verify
+the web server was accessible.
+
+<img width="1914" height="270" alt="Screenshot 2026-03-31 214532" src="https://github.com/user-attachments/assets/583a099d-987e-49ca-b635-9412bd0f3e6e" />
+
+
+The page loaded successfully, confirming the
+UserData script ran correctly and the web server is operational.
+
+<img width="1917" height="458" alt="Screenshot 2026-03-31 220017" src="https://github.com/user-attachments/assets/ae0a7f7f-087c-4f36-b9f7-05c459c5b3ac" />
+
+## Reflection
+
+Through this task, I learned how powerful the AWS CLI is when it comes
+to launching and managing EC2 instances without using the console.
+
+Inspecting the UserData script helped me understand how instances can
+be automatically configured at launch, which saves a lot of time.
+
+Creating a custom AMI from a running instance was the most valuable
+part for me, as I now understand that this is what makes Auto Scaling
+possible. Any new instance launched from this AMI will already have
+everything installed and ready to go.
+
+
+
 
 
 
