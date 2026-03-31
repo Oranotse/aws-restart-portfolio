@@ -1,4 +1,4 @@
-# EC2 Auto Scaling Lab — Creating a Custom AMI
+# EC2 Auto Scaling Lab: Creating a Custom AMI
 
 ## Overview
 
