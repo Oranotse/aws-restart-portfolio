@@ -19,8 +19,6 @@ Demonstrate how to create a custom AMI using the AWS CLI
 - Verify a web server deployment via public DNS
 - Create a custom AMI from a running EC2 instance
 
----
-
 ## Implementation Steps
 
 ### Task 1.1 Connect to the Command Host Instance
@@ -88,20 +86,19 @@ aws ec2 run-instances \
 The command returned Instance ID: `i-0585d2d22e62d748a`.
 
 <img width="1919" height="198" alt="Screenshot 2026-03-31 213410" src="https://github.com/user-attachments/assets/449c4ed9-4150-4623-aa49-092c107ab73e" />
+<img width="1919" height="198" alt="Screenshot 2026-03-31 213410" src="https://github.com/user-attachments/assets/534d6ceb-eab1-4181-a27a-179f13154b55" />
 
 
-I waited for the instance to reach a running state, then retrieved
-its public DNS name:
-aws ec2 wait instance-running --instance-ids i-0585d2d22e62d748a
 
-aws ec2 describe-instances \
-  --instance-id i-0585d2d22e62d748a \
-  --query 'Reservations[0].Instances[0].NetworkInterfaces[0].Association.PublicDnsName'
-```
+I then ran the `aws ec2 run-instances` command to launch a new `t3.micro` instance
+tagged as **WebServer**, which returned the Instance ID `i-0585d2d22e62d748a`.
+I then ran `aws ec2 wait instance-running` to wait until the instance was fully running.
 
-Output: `ec2-44-243-239-25.us-west-2.compute.amazonaws.com`
+Once the instance was ready, I ran `aws ec2 describe-instances` to retrieve
+its public DNS name: `ec2-44-243-239-25.us-west-2.compute.amazonaws.com`.
 
-<img width="1913" height="241" alt="Screenshot 2026-03-31 220315" src="https://github.com/user-attachments/assets/62324dff-555b-4e61-88ba-e631381d78b3" />
+<img width="1913" height="241" alt="Screenshot 2026-03-31 220315" src="https://github.com/user-attachments/assets/563123b9-67d3-47fb-a53e-bcde11e3ae23" />
+
 
 
 
