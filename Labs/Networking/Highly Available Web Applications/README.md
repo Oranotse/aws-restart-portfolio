@@ -4,7 +4,7 @@ The detailed steps for this lab can be seen clearly in the folder titled **Lab S
 
 ## What This Lab Is About
 
-In this lab, I worked on making a web application highly available by using an Application Load Balancer (ALB), an Auto Scaling group, and multiple Availability Zones. According to AWS, [Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html) helps you maintain application availability and lets you automatically add or remove EC2 instances according to conditions you define. The starting point of this lab was reviewing the existing **TravelAgencyWebServers** Auto Scaling group, which was only running one EC2 instance in a single Availability Zone and had no load balancer attached to it yet.
+In this lab, I worked on making a web application highly available by using an Application Load Balancer (ALB), an Auto Scaling group, and multiple Availability Zones. According to AWS, Amazon EC2 Auto Scaling) helps you maintain application availability and lets you automatically add or remove EC2 instances according to conditions you define. The starting point of this lab was reviewing the existing **TravelAgencyWebServers** Auto Scaling group, which was only running one EC2 instance in a single Availability Zone and had no load balancer attached to it yet.
 
 ## Setting Up the Target Group and Load Balancer
 
