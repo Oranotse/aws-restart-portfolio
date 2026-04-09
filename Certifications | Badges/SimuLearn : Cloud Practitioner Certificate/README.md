@@ -20,7 +20,7 @@ I recently completed the **AWS SimuLearn: Cloud Practitioner** learning path, wh
 
 ## What This Learning Path Taught Me 💡
 
-Across these 12 labs I got hands-on experience with a wide range of AWS services including **EC2, DynamoDB, RDS, VPC, IAM, CloudWatch, Auto Scaling, and Elastic Load Balancing**. I learned how to build architectures that are secure, cost efficient, highly available, and able to scale automatically based on demand. This learning path gave me a solid foundation in cloud computing and prepared me for real world AWS environments.
+Across these 12 labs I got hands-on experience with a wide range of AWS services including **EC2, DynamoDB, RDS, EFS, VPC, IAM, CloudWatch, Auto Scaling, and Elastic Load Balancing**. I learned how to build architectures that are secure, cost efficient, highly available, and able to scale automatically based on demand. This learning path gave me a solid foundation in cloud computing and prepared me for real world AWS environments.
 
 ---
 
