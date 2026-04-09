@@ -5,4 +5,8 @@ AWS Cloud Quest: Cloud Practitioner is a role-playing game by AWS where you lear
 ### Badge 🏅
 <img width="240" height="240" alt="aws-cloud-quest-cloud-practitioner-training-badge" src="https://github.com/user-attachments/assets/34e9d120-8073-4f36-8499-68b83243076a" />
 
+### Certificate 🏅
+<img width="1048" height="802" alt="image" src="https://github.com/user-attachments/assets/c0661b0b-0b6f-4269-825c-84441d7de453" />
+
+
 
