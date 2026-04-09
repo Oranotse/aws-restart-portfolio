@@ -4,18 +4,18 @@ I recently completed the **AWS SimuLearn: Cloud Practitioner** learning path, wh
 
 ## Labs Completed 🚀
 
-  **Cloud Computing Essentials** - The fundamentals of cloud computing and the core benefits of using AWS
-  **Cloud First Steps** - How to navigate the AWS Management Console and work with basic AWS services
-  **Computing Solutions** - How to launch and configure EC2 instances to run applications in the cloud
-  **First NoSQL Database** - How to create and query a DynamoDB table with a flexible schema
-  **Networking Concepts** - How VPCs, subnets, and routing work together to build a network in AWS
-  **Cloud Economics** - How to estimate and optimize AWS costs using the AWS Pricing Calculator
-  **File Systems in the Cloud** - How to create and mount EFS file systems to EC2 instances
-  **Databases in Practice** - How to set up and manage a relational database using Amazon RDS
-  **Core Security Concepts** - How to manage access and permissions using IAM users, roles, and policies
-  **Auto-Healing and Scaling Applications** - How to configure Auto Scaling groups and CloudWatch alarms to automatically scale and recover
-  **Highly Available Web Applications** - How to use an Application Load Balancer and multiple Availability Zones to build a highly available architecture
-  **Connecting VPCs** - How to configure VPC peering to allow communication between separate VPCs
+- **Cloud Computing Essentials** - The fundamentals of cloud computing and the core benefits of using AWS
+- **Cloud First Steps** - How to navigate the AWS Management Console and work with basic AWS services
+- **Computing Solutions** - How to launch and configure EC2 instances to run applications in the cloud
+- **First NoSQL Database** - How to create and query a DynamoDB table with a flexible schema
+- **Networking Concepts** - How VPCs, subnets, and routing work together to build a network in AWS
+- **Cloud Economics** - How to estimate and optimize AWS costs using the AWS Pricing Calculator
+- **File Systems in the Cloud** - How to create and mount EFS file systems to EC2 instances
+- **Databases in Practice** - How to set up and manage a relational database using Amazon RDS
+- **Core Security Concepts** - How to manage access and permissions using IAM users, roles, and policies
+- **Auto-Healing and Scaling Applications** - How to configure Auto Scaling groups and CloudWatch alarms to automatically scale and recover
+- **Highly Available Web Applications** - How to use an Application Load Balancer and multiple Availability Zones to build a highly available architecture
+- **Connecting VPCs** - How to configure VPC peering to allow communication between separate VPCs
 
 
 ## What This Learning Path Taught Me 💡
