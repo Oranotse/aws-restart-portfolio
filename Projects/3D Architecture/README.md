@@ -17,10 +17,11 @@ This was a project I did as part of my AWS re/Start training. The task was to de
 - **Elastic Load Balancer** - Distributes incoming traffic evenly across EC2 instances in both Availability Zones so no single server gets overwhelmed
 - **EC2 with Auto Scaling** - The actual servers running the application, grouped under an Auto Scaling group so they scale up or down based on how much traffic is coming in
 - **Amazon RDS (Multi-AZ)** - Stores all the structured data like products, orders, and accounts, with a standby database in a second Availability Zone that takes over automatically if the primary one fails
-- **Amazon S3** - Stores all the 3D model files, images, and static content, and acts as the origin that CloudFront pulls from
-- **Amazon CloudWatch** - Monitors everything and triggers alarms that tell the Auto Scaling group when to add or remove instances
-- **AWS Trusted Advisor** - Gives recommendations on how to improve cost, security, and performance across the whole environment
+- **Amazon S3** - Stores all the 3D model files, images, and static content, and acts as the origin that CloudFront pulls from. As a managed AWS service it sits outside the VPC and is accessed over the internet
+- **Amazon CloudWatch** - Monitors everything inside the architecture including EC2, RDS, and the ALB, and triggers alarms that tell the Auto Scaling group when to add or remove instances. It is a managed service that operates outside the VPC
+- **AWS Trusted Advisor** - Gives recommendations on how to improve cost, security, and performance across the whole environment. Like CloudWatch and S3 it is a managed AWS service that operates outside the VPC
 - **VPC with Public and Private Subnets** - The load balancer sits in the public subnet facing the internet, while EC2 and RDS are in private subnets so they are never directly exposed
+
 
 ## How It Meets the Requirements ✅
 
