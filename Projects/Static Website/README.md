@@ -1,4 +1,4 @@
-# ☕ FreshlyGround Cafe – AWS re/Start Portfolio Project
+# ☕ FreshlyGround Cafe - AWS re/Start Portfolio Project
 
 This project demonstrates how a small cafe can begin migrating to **Amazon Web Services (AWS)** by designing a cloud architecture and hosting a **static website using Amazon S3**.
 
