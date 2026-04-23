@@ -12,7 +12,7 @@ I opened the **EC2 Management Console**, selected the **Command Host** instance,
 
 ## Inspecting the UserData Script
 
-I ran `more UserData.txt` to inspect the startup script that would be passed to the new instance. This **UserData script** automatically installs a PHP web application when the instance first boots. It also deletes shell history and removes `authorized_keys` files at the end, which prevents sensitive information from being baked into the AMI.
+I used the more UserData.txt command to view the startup script for the EC2 instance. This script runs automatically when the instance starts. It installs a PHP web application during the first boot. At the end, it clears shell history and removes authorized_keys files to make sure no sensitive information is left behind or saved in the image.
 
 ## Launching the Web Server Instance
 
