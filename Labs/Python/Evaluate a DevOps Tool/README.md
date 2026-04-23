@@ -30,4 +30,4 @@ During my research, I identified several real-world use cases for **AWS CodeDepl
 
 This lab taught me that DevOps is not just about writing code, but also about how that code gets from a developer's computer into production safely and efficiently. **AWS CodeDeploy** is particularly useful when teams need to deploy applications across multiple environments without manual intervention, which reduces the risk of errors and speeds up the release process.
 
-I also learned that automation is a key part of DevOps, because manual deployments are slow, error-prone, and do not scale well as applications grow. Understanding tools like CodeDeploy will help me work more efficiently in real-world DevOps environments. 🎉
+I also learned that automation is a key part of DevOps, because manual deployments are slow, error-prone, and do not scale well as applications grow. Understanding tools like CodeDeploy will help me work more efficiently in real-world DevOps environments.
