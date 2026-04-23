@@ -28,4 +28,4 @@ With the web server confirmed, I ran `aws ec2 create-image --name WebServerAMI -
 
 ## What I Learned
 
-This lab showed me how to build and capture a configured EC2 instance entirely through the CLI without touching the console. I learned how **UserData scripts** automate software installation at launch, how `aws ec2 wait` handles timing without guesswork, and why cleaning up credentials before creating an AMI is a security best practice. Most importantly, I now understand that a custom AMI is what makes **Auto Scaling** possible, it gives AWS a ready-made template to spin up new instances automatically.
+This lab showed me how to build and capture a configured EC2 instance entirely through the CLI without touching the console. I learned how **UserData scripts** automate software installation at launch, how `aws ec2 wait` handles timing without any guessing, and why cleaning up credentials before creating an AMI is a security best practice. Most importantly, I now understand that a custom AMI is what makes **Auto Scaling** possible, it gives AWS a ready-made template to spin up new instances automatically.
