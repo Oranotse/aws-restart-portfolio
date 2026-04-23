@@ -16,7 +16,7 @@ I used the more UserData.txt command to view the startup script for the EC2 inst
 
 ## Launching the Web Server Instance
 
-I ran `aws ec2 run-instances` with the required parameters — key name, AMI ID, security group, and subnet to launch a new **t3.micro** instance tagged as **WebServer**. The command returned an **InstanceId**, which I used in the next steps. I then ran `aws ec2 wait instance-running` to pause until the instance was fully ready before continuing.
+I ran `aws ec2 run-instances` with the required parameters being key name, AMI ID, security group, and subnet to launch a new **t3.micro** instance tagged as **WebServer**. The command returned an **InstanceId**, which I used in the next steps. I then ran `aws ec2 wait instance-running` to pause until the instance was fully ready before continuing.
 
 ## Verifying the Web Server
 
