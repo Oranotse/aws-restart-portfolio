@@ -8,7 +8,7 @@ In this lab, I worked on writing a Python script to find and display all prime n
 
 ## Connecting to the Linux Host
 
-I connected to the **EC2 instance** using SSH through **PuTTY**. After downloading the `labsuser.ppk` file from the lab details, I entered the instance's public IP address into PuTTY, loaded the private key, and connected as `ec2-user`. Once connected, I had command-line access to start working on the Python script.
+I connected to the **EC2 instance** using SSH through **PuTTY**. First, I downloaded the `labsuser.ppk` file from the lab details, then I copied the public IPv4 address from the **EC2 Management Console**. In PuTTY, I entered `ec2-user@<public-ipv4-address>` in the hostname field, then I navigated to the **SSH > Auth > Credentials** section in the left menu and browsed for the `.ppk` file under "Private key file for authentication". After selecting the key file, I clicked **Open** to establish the connection to the EC2 instance, which gave me command-line access to start working on the Python script.
 
 ## Writing the Python Script
 
