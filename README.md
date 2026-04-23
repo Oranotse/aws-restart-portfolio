@@ -31,4 +31,4 @@ AWS re/Start is a full-time, classroom-based workforce development programme by 
 - Troubleshooting and cloud support
 
 
-*Work in progress — updated as the programme progresses.*
+*Work in progress updated as the programme progresses.*
