@@ -6,7 +6,7 @@ A portfolio documenting the labs, projects, and certifications completed during 
 
 ## 📁 Portfolio Structure
 
-``
+```
 aws-restart-portfolio/
 ├── Certifications & Badges/    # AWS re/Start completion badge and programme certifications
 ├── Labs/
@@ -15,7 +15,7 @@ aws-restart-portfolio/
 │   ├── Networking/             # VPC, subnets, security groups, and networking labs
 │   └── Python/                 # Basic Python exercises and challenges
 └── Projects/                   # End-to-end cloud projects built during the programme
-``
+```
 
 ## ☁️ About the Programme
 
