@@ -19,7 +19,7 @@ aws-restart-portfolio/
 
 ## ☁️ About the Programme
 
-AWS re/Start is a full-time, classroom-based workforce development programme by Amazon Web Services. It focuses on building practical cloud skills through hands-on labs, scenario-based learning, and real-world projects — preparing graduates for entry-level cloud roles.
+AWS re/Start is a full-time, classroom-based workforce development programme by Amazon Web Services. It focuses on building practical cloud skills through hands-on labs, scenario-based learning, and real-world projects, preparing graduates for entry-level cloud roles.
 
 
 ## 🛠️ Core Skills Covered
