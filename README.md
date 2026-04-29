@@ -97,9 +97,6 @@ I'm always open to connecting with fellow cloud enthusiasts and professionals!
 
 ---
 
-
-**Last Updated:** [Add date]
-
 **Status:** 🟢 Completed the programme, awaiting graduate badge.
 
 ---
