@@ -4,7 +4,7 @@ The detailed steps for this lab can be seen clearly in the folder titled **Lab S
 
 ## What This Lab Is About
 
-In this lab, I worked with **Amazon Inspector** to scan for vulnerabilities in AWS Lambda functions. The goal was to activate Amazon Inspector, review vulnerability reports, and fix the issues found. According to AWS, Amazon Inspector is an automated security tool that scans for vulnerable software packages and code vulnerabilities in Lambda functions, EC2 instances, and Amazon ECR images.
+In this lab, I worked with **Amazon Inspector** to scan for vulnerabilities in AWS Lambda functions. The goal was to activate Amazon Inspector, review vulnerability reports, and fix the issues found. Amazon Inspector is an automated security tool that scans for vulnerable software packages and code vulnerabilities in Lambda functions, EC2 instances, and Amazon ECR images.
 
 ### Task 1: Activating Amazon Inspector
 
@@ -20,4 +20,4 @@ I went to the **Lambda** console and selected the **get-request** function. I op
 
 ## What I Learned
 
-This lab taught me how to use **Amazon Inspector** to automatically scan AWS resources for security vulnerabilities. I learned how to read vulnerability reports by checking the severity level, affected resources, and remediation steps. The **National Vulnerability Database (NVD)** link provided detailed information about each security issue. I learned how to fix vulnerabilities in Lambda functions by updating the **requirements.txt** file to use the latest package versions. Seeing the vulnerability move from **Active** to **Closed** after deploying the fix showed me that Amazon Inspector continuously monitors resources and automatically rescans them after changes are made.
+This lab taught me how to use **Amazon Inspector** to automatically scan AWS resources for security vulnerabilities. I learned how to read vulnerability reports by checking the severity level, affected resources, and remediation steps. I learned how to fix vulnerabilities in Lambda functions by updating the **requirements.txt** file to use the latest package versions. Seeing the vulnerability move from **Active** to **Closed** after deploying the fix showed me that Amazon Inspector continuously monitors resources and automatically rescans them after changes are made.
