@@ -34,8 +34,8 @@ Through the AWS re/Start program, I'm building expertise in:
 - **Database:** RDS, DynamoDB
 - **Networking:** VPC, CloudFront, Route 53
 
----
 
+```
 ## 📁 Repository Structure
 aws-restart-portfolio/
 │
@@ -50,8 +50,8 @@ aws-restart-portfolio/
 │
 └── 📄 README.md
 └── This file
+```
 
----
 
 ## 🎓 Certifications & Badges
 
