@@ -91,9 +91,9 @@ Real-world projects demonstrating practical application of AWS services:
 
 I'm always open to connecting with fellow cloud enthusiasts and professionals!
 
-- **GitHub:** [@Oranotse](https://github.com/Oranotse)
-- **LinkedIn:** [www.linkedin.com/in/oranotse-gaolojwe]
-- **Email:** [omolemogaolojwe@gmail.com]
+- **GitHub:** [@You are already here](https://github.com/Oranotse)
+- **LinkedIn:** www.linkedin.com/in/oranotse-gaolojwe
+- **Email:** omolemogaolojwe@gmail.com
 
 ---
 
