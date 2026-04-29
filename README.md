@@ -34,9 +34,10 @@ Through the AWS re/Start program, I'm building expertise in:
 - **Database:** RDS, DynamoDB
 - **Networking:** VPC, CloudFront, Route 53
 
+---
 
-```
 ## 📁 Repository Structure
+```
 aws-restart-portfolio/
 │
 ├── 📂 Certifications | Badges/
@@ -52,7 +53,7 @@ aws-restart-portfolio/
 └── This file
 ```
 
-
+---
 ## 🎓 Certifications & Badges
 
 This folder contains my AWS certifications and digital badges earned throughout my learning journey.
